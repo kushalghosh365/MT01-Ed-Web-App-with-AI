@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* Use a unique and descriptive class name for Jaro font */
+    font-family: 'Jaro', sans-serif ;
+  
+}
+::selection {
+    color: white; /* Text color when selected */
+    background-color: rgb(231, 231, 10); /* Background color of selected text */
+  }
+  

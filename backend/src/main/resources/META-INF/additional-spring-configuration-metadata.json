@@ -1,0 +1,47 @@
+{"properties": [
+  {
+    "name": "cloudinary.api_key",
+    "type": "java.lang.String",
+    "description": "A description for 'cloudinary.api_key'"
+  },
+  {
+    "name": "cloudinary.api_secret",
+    "type": "java.lang.String",
+    "description": "A description for 'cloudinary.api_secret'"
+  },
+  {
+    "name": "cloudinary.cloud_name",
+    "type": "java.lang.String",
+    "description": "A description for 'cloudinary.cloud_name'"
+  },
+  {
+    "name": "gemini.apiKey",
+    "type": "java.lang.String",
+    "description": "A description for 'gemini.apiKey'"
+  },
+  {
+    "name": "gemini.apiUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'gemini.apiUrl'"
+  },
+  {
+    "name": "gemini.api_key",
+    "type": "java.lang.String",
+    "description": "A description for 'gemini.api_key'"
+  },
+  {
+    "name": "gemini.apiUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'gemini.apiUrl'"
+  },
+  {
+    "name": "gemini.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'gemini.api.key'"
+  },
+  {
+    "name": "gemini.api.url",
+    "type": "java.lang.String",
+    "description": "A description for 'gemini.api.url'"
+  }
+]}

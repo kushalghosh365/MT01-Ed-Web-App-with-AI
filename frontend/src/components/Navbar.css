@@ -1,0 +1,34 @@
+/* Navbar */
+@keyframes underlineAnimation {
+    from {
+      width: 0;
+      right: 0;
+    }
+    to {
+      width: 100%;
+      right: 0;
+    }
+  }
+  
+  .underline-effect {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .underline-effect::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .underline-effect:hover::before {
+    visibility: visible;
+    width: 100%;
+    animation: underlineAnimation 0.3s backwards;
+  }
